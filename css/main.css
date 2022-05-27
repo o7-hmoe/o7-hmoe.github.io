@@ -1,31 +1,71 @@
-<html>
-<link rel="stylesheet" type="text/css" href="css/main.css">
+#background {
+  background-color: #c2beb4;
+  margin: 20px;
+}
+#img-background {
+  background-color: white;
+  margin: 20px;
   
-<main id="main">
-  <div id="background">
-    <h1 id="title">Terry Fox</h1>
-    <h2 id=sub-title>The Canadian Legend</h2>
-    <div id="img-background">  
-      <img id="image" src="https://res.cloudinary.com/dt84tw7zr/image/fetch/f_auto,g_auto,q_auto/https://www.gameplan-a.com/wp-content/uploads/fly-images/19925/Terry-Fox-Marathon-of-Hope-40th-anniversary-cancer-640x9999.png" alt="Terry Fox on highway">
-      <h3 id="img-caption">Terry Fox running on the highway</h3>
-    </div>
-    <h3 id="tribute-heading">A timeline of Terry's life:</h3>
-    <p id="tribute-info">
-     <ul>
-       <li>1958 - Terry Fox was born</li>
-       <li>1968 - Settled in Port Coquitlam, BC</li>
-       <li>1976 - Involved in a car accident which injured his right knee  </li>
-       <li>1977 - Diagnosed with osteosarcoma, a rare form a cancer that starts in the knee </li>
-        <li>1977 - Right knee amputated</li>
-        <li>1980 - Marathon for Hope begins</li>
-        <li>1980 - Forced to stop his run across Canada due to health issues</li>
-        <li>1981 - Terry Fox dies</li>
-     </ul>
-    <p id="tribute-message">It occurs very rarely in the life of a nation that the courageous spirit of one person unites all people in the celebration of his life and in the mourning of his death ... We do not think of him as one who was defeated by misfortune but as one who inspired us with the example of the triumph of the human spirit over adversity".</p>
-    <p id="cite"> - Canadian Prime Minister Pierre Trudeau</c>
-      <p id="tribute-continue">Read more about Terry Fox's story on 
-      <a id="tribute-link" target="_blank" href="https://en.wikipedia.org/wiki/Terry_Fox">Wikipedia.</a>
-      </p>
-    </p>
-  </div>
-</main>
+}
+#image {
+  display: block;
+  height: auto;
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 1px;
+}
+#title {
+  text-align: center;
+  padding-top: 30px;
+}
+#sub-title {
+  text-align: center;
+  font-size: 20px;
+}
+#img-caption {
+  text-align: center;
+  font-size: 20px;
+  position: relative;
+  bottom: 10px;
+}
+#tribute-info {
+  text-align: center;
+}
+#tribute-continue {
+  text-align: center;
+  padding: 50px;
+  background-color: green;
+  font-size: 20px;
+}
+#tribute-link {
+  text-align: center;
+  font-size: 20px;
+}
+#tribute-message {
+  font-style: italic;
+  font-size: 16px;
+  text-align: center;
+  background-color: pink;
+	width: 50%;
+	margin: 0 auto;
+}
+#cite {
+  font-style: italic;
+  font-size: 16px;
+  text-align: left;
+  background-color: pink;
+	width: 50%;
+	margin: 0 auto;
+  padding-top: 20px;
+}
+ul {
+    max-width: 550px;
+    margin: 0 auto 50px auto;
+    text-align: left;
+    line-height: 1.6;
+    background-color: yellow;
+}
+li {
+    background-color: blue;
+}
