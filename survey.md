@@ -1,3 +1,32 @@
 layout: page
 title: "survey"
 permalink: /survey/
+
+
+<html>
+<link rel="stylesheet" href="styles.css">
+</html>
+
+<h1 id="title">FreeCodeCamp Survey</h1>
+<p id="description">A survey of FreeCodeCamp members</p>
+<div id="background">
+  <form id="survey-form">
+  <label for="name" id="name-label">Enter your name</label>
+  <input required id="name" type="text" placeholder="John Doe"></input>
+  <label for="email" id="email-label">Enter your email</label>
+  <input required id="email" type="email" placeholder="JohnDoe@gmail.com"></input>
+  <label for="number" id="number-label">Enter your number</label>
+  <input id="number" type="number" placeholder="778-132-1832" min="1" max="9999999999"></input>
+  <select id="dropdown" name="dropdown">
+    <option value="">Select an option...</option>
+    <option value="Male">Male</option>
+    <option value="Female">Female</option>
+  </select>
+  <input name="radio" type="radio" value="radio1">radio1</button>
+  <input name="radio" type="radio" value="radio2">radio2</button>
+  <input type="checkbox" value="checkbox1">checkbox1</button>
+  <input type="checkbox" value="checkbox2">checkbox2</button>
+  <textarea>Additional comments...</textarea>
+  <button id="submit">Submit</button>
+  </form>
+</div>
